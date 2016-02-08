@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?xml-stylesheet type="text/xsl" href="xmlProject_RadkaDicheva_61666.xsl"?>
+
+<!DOCTYPE sophomore SYSTEM "xmlProject_RadkaDicheva_61666.dtd">-->
+
+<sophomoreStudent> <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xmlProject_RadkaDicheva_61666.xsd-->
+	<personalInformation>
+		<name>
+			<firstName>Иван</firstName>
+			<surname>Иванов</surname>
+			<lastName>Иванов</lastName>
+		</name>
+		<identityNumber egn="9503064587" />
+		<address>
+			<city>Перник</city>
+			<zipCode>2300</zipCode>
+			<street>"Христо Ботев"</street>
+			<streetNumber>100</streetNumber>
+		</address>
+		<phone>0888888888</phone>
+		<email>iv.ivanov@email.com</email>
+	</personalInformation>
+	<studentInformation facultyNumber="66666">
+		<GPA>4.83</GPA>
+		<major majorName="Software Engineering">
+			<group>1</group>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Algebra</subject>
+				<passed>Yes</passed>
+				<mark>4</mark>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>1</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Mathematical Analysis 1</subject>
+				<passed>Yes</passed>
+				<mark>4</mark>
+				<credits>8.5</credits>
+				<difficulty>9</difficulty>
+				<semester>1</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>English</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>1.5</credits>
+				<difficulty>4</difficulty>
+				<semester>1</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Discrete Mathematics 1</subject>
+				<passed>Yes</passed>
+				<mark>5</mark>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>1</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Introduction to Programming</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>6</credits>
+				<difficulty>7</difficulty>
+				<semester>1</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Mathematical Analysis 2</subject>
+				<passed>No</passed>
+				<mark>2</mark>
+				<credits>7.5</credits>
+				<difficulty>9</difficulty>
+				<semester>2</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Geometry</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>7.5</credits>
+				<difficulty>7</difficulty>
+				<semester>2</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Discrete Mathematics 2</subject>
+				<passed>Yes</passed>
+				<mark>3</mark>
+				<credits>6.5</credits>
+				<difficulty>8</difficulty>
+				<semester>2</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Computer English</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>2</credits>
+				<difficulty>5</difficulty>
+				<semester>2</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>1</year>
+				<subject>Object Oriented Programming</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>6.5</credits>
+				<difficulty>7</difficulty>
+				<semester>2</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Computer Architecture</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Communication Skills</subject>
+				<passed>Included in protocol</passed>
+				<credits>2</credits>
+				<difficulty>5</difficulty>
+				<semester>3</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Data Structures and Algorithms</subject>
+				<passed>Included in protocol</passed>
+				<credits>6.5</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Introduction to Software Engineering</subject>
+				<passed>Included in protocol</passed>
+				<credits>6.5</credits>
+				<difficulty>8</difficulty>
+				<semester>3</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Data Bases</subject>
+				<passed>Included in protocol</passed>
+				<credits>6</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Differrential Equations and Applications</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>8</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Software Engineering Economics</subject>
+				<passed>Included in protocol</passed>
+				<credits>3</credits>
+				<difficulty>5</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Computer Networking</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>8</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Operating Systems</subject>
+				<passed>Included in protocol</passed>
+				<credits>6</credits>
+				<difficulty>6</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<mandatorySubject>
+				<year>2</year>
+				<subject>Software Architecture and Software Development</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+			</mandatorySubject>
+			<optionalSubject>
+				<year>1</year>
+				<subject>Programming 101</subject>
+				<passed>Yes</passed>
+				<mark>6</mark>
+				<credits>3.5</credits>
+				<difficulty>6</difficulty>
+				<semester>1</semester>
+				<adequate>Yes</adequate>
+				<category>CS Practicum</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Multimedia Technology</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Practicum</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>3</year>
+				<subject>Algorithms Design and Analysis</subject>
+				<passed>Not signed up</passed>
+				<credits>3.5</credits>
+				<difficulty>7</difficulty>
+				<semester>5</semester>
+				<adequate>No</adequate>
+				<category>CS Practicum</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Operational Study</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>List 1</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Numerical methods</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>List 1</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Introduction to Graph Theory</subject>
+				<passed>Included in protocol</passed>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>MATH</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Algebra 2</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>MATH</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>General Relativity</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>4</semester>
+				<adequate>No</adequate>
+				<category>MATH</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>1</year>
+				<subject>Mathematical Introduction to Economics</subject>
+				<passed>Yes</passed>
+				<mark>4</mark>
+				<credits>7</credits>
+				<difficulty>6</difficulty>
+				<semester>2</semester>
+				<adequate>Yes</adequate>
+				<category>APM</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Fractals</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>No</adequate>
+				<category>APM</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Gaming Theory</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>APM</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>3</year>
+				<subject>Models for Quality Management</subject>
+				<passed>Not signed up</passed>
+				<credits>3.5</credits>
+				<difficulty>5</difficulty>
+				<semester>5</semester>
+				<adequate>Yes</adequate>
+				<category>CS Fundamentals</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>3</year>
+				<subject>Modern Communications</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>6</difficulty>
+				<semester>5</semester>
+				<adequate>Yes</adequate>
+				<category>CS Fundamentals</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>4</year>
+				<subject>Knowledge Management</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>6</difficulty>
+				<semester>7</semester>
+				<adequate>No</adequate>
+				<category>CS Fundamentals</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Mobile Applications</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>6</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Fundamentals</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Big Data</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>8</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Fundamentals</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Python</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Perl</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Java EE</subject>
+				<passed>Not signed up</passed>
+				<credits>4</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>eLearning</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>3</year>
+				<subject>Advanced JavaScript</subject>
+				<passed>Not signed up</passed>
+				<credits>7</credits>
+				<difficulty>8</difficulty>
+				<semester>5</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Java SE</subject>
+				<passed>Not signed up</passed>
+				<credits>6</credits>
+				<difficulty>7</difficulty>
+				<semester>3</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>1</year>
+				<subject>Introduction to Software Testing</subject>
+				<passed>Included in protocol</passed>
+				<credits>5</credits>
+				<difficulty>6</difficulty>
+				<semester>1</semester>
+				<adequate>Yes</adequate>
+				<category>CS Core</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Philosophy of mathematics</subject>
+				<passed>Not signed up</passed>
+				<credits>2.5</credits>
+				<difficulty>4</difficulty>
+				<semester>3</semester>
+				<adequate>No</adequate>
+				<category>Others</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Modern Physics</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>6</difficulty>
+				<semester>4</semester>
+				<adequate>No</adequate>
+				<category>Others</category>
+			</optionalSubject>
+			<optionalSubject>
+				<year>2</year>
+				<subject>Cognitive Processes in Mathematics</subject>
+				<passed>Not signed up</passed>
+				<credits>5</credits>
+				<difficulty>7</difficulty>
+				<semester>4</semester>
+				<adequate>Yes</adequate>
+				<category>Others</category>
+			</optionalSubject>
+		</major>
+	</studentInformation>
+</sophomoreStudent>

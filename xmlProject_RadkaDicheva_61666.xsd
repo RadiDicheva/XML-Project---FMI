@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="sophomoreStudent">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:element name="personalInformation">
+					<xsd:complexType mixed="true">
+						<xsd:sequence>
+							<xsd:element name="name">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="firstName" type="xsd:string" />
+										<xsd:element name="surname" type="xsd:string" />
+										<xsd:element name="lastName" type="xsd:string" />
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="identityNumber">
+								<xsd:complexType>
+									<xsd:attribute name="egn" use="required" type="xsd:nonNegativeInteger" />
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="address">
+								<xsd:complexType mixed="true">
+									<xsd:sequence>
+										<xsd:element name="city" type="xsd:string" />
+										<xsd:element name="zipCode" type="xsd:nonNegativeInteger" />
+										<xsd:element name="street" type="xsd:string" />
+										<xsd:element name="streetNumber" type="xsd:positiveInteger" />
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="phone" type="xsd:nonNegativeInteger" />
+							<xsd:element name="email" type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="studentInformation">
+					<xsd:complexType mixed="true">
+						<xsd:sequence>
+							<xsd:element name="GPA" type="xsd:float" />
+							<xsd:element name="major">
+								<xsd:complexType mixed="true">
+									<xsd:sequence>
+										<xsd:element name="group" type="xsd:positiveInteger" />
+										<xsd:element name="mandatorySubject" maxOccurs="unbounded">
+											<xsd:complexType mixed="true">
+												<xsd:sequence>
+													<xsd:element name="year" type="xsd:positiveInteger" />
+													<xsd:element name="subject" type="xsd:string" />
+													<xsd:element name="passed" type="xsd:string" />
+													<xsd:element name="mark" type="xsd:float" minOccurs="0"/>
+													<xsd:element name="credits" type="xsd:float" />
+													<xsd:element name="difficulty" type="xsd:positiveInteger" />
+													<xsd:element name="semester" type="xsd:positiveInteger" />
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+										<xsd:element name="optionalSubject" maxOccurs="unbounded">
+											<xsd:complexType mixed="true">
+												<xsd:sequence>
+													<xsd:element name="year" type="xsd:positiveInteger" />
+													<xsd:element name="subject" type="xsd:string" />
+													<xsd:element name="passed" type="xsd:string" />
+													<xsd:element name="mark" type="xsd:float" minOccurs="0" />
+													<xsd:element name="credits" type="xsd:float" />
+													<xsd:element name="difficulty" type="xsd:positiveInteger" />
+													<xsd:element name="semester" type="xsd:positiveInteger" />
+													<xsd:element name="adequate" type="xsd:string" />
+													<xsd:element name="category" type="xsd:string" />
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+									<xsd:attribute name="majorName" use="required" type="xsd:string"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="facultyNumber" use="required" type="xsd:nonNegativeInteger" />
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

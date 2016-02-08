@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE sophomoreStudent [ -->
+<!ELEMENT sophomoreStudent (personalInformation+,studentInformation+)>
+<!ELEMENT personalInformation (name+,identityNumber,address+,phone,email)>
+<!ELEMENT name (firstName,surname,lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT identityNumber EMPTY>
+<!ATTLIST identityNumber egn (9503064587) #REQUIRED>
+<!ELEMENT address (city,zipCode,street,streetNumber)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT zipCode (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT streetNumber (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT studentInformation (GPA,major+)>
+<!ATTLIST studentInformation facultyNumber (66666) #REQUIRED>
+<!ELEMENT GPA (#PCDATA)>
+<!ELEMENT major (group,mandatorySubject+,optionalSubject+)>
+<!ATTLIST major majorName CDATA #REQUIRED>
+<!ELEMENT mandatorySubject (year,subject,passed,mark?,credits,difficulty,semester)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT passed (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT credits (#PCDATA)>
+<!ELEMENT difficulty (#PCDATA)>
+<!ELEMENT semester (#PCDATA)>
+<!ELEMENT optionalSubject (year,subject,passed,mark?,credits,difficulty,adequate,semester,category)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT passed (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT credits (#PCDATA)>
+<!ELEMENT difficulty (#PCDATA)>
+<!ELEMENT semester (#PCDATA)>
+<!ELEMENT adequate (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!-- ]> -->
